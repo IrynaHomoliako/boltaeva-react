@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import { Link } from "react-router-dom";
 import { images, socials, navigationLinks, products } from "../../constants";
 
 function Footer() {
@@ -33,7 +34,7 @@ function Footer() {
             <ul className="footer__navigation-list">
               {navigationLinks.map((link) => (
                 <li key={link.id}>
-                  <a href={link.id}>{link.title}</a>
+                  <Link to={`/${link.id}`}>{link.title}</Link>
                 </li>
               ))}
             </ul>
@@ -44,7 +45,7 @@ function Footer() {
             <ul className="footer__products-list">
               {products.map((product) => (
                 <li key={product.id}>
-                  <a href={product.link}>{product.title}</a>
+                  <Link to="/cardproduct">{product.title}</Link>
                 </li>
               ))}
             </ul>
