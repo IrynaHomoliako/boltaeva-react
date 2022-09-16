@@ -81,18 +81,26 @@
             color: #AC8F78;
         }
 
-        input, &:active {
+        input {
+            border: none;
+            border-bottom: 1px solid rgba(#555, 0.2);
             font-size: 18px;
             line-height: 22px;
             color: #555555;
-            border: none;
-            border-bottom: 1px solid rgba(#000, 0.2);
             padding: 20px 5px 24px 5px;
             background: transparent;
             font-weight: 300;
             outline: none;
             margin-bottom: 30px;
+
+            &:active {
+                font-size: 18px;
+                line-height: 22px;
+                color: #555555;
+            }
         }
+
+      
     }
 
     &__btn {

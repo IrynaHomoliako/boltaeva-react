@@ -60,11 +60,11 @@ function Footer() {
             <div className="footer__contacts-links">
               <div className="footer__contacts-links_email">
                 <img src={images.email} alt="email" />
-                <a href="/">E-mail</a>
+                <a href="https://www.google.com/intl/ru/gmail/about/">E-mail</a>
               </div>
               <div className="footer__contacts-links_whatsapp">
                 <img src={images.whatsapp} alt="whatsapp" />
-                <a href="/">Whatsapp</a>
+                <a href="https://web.whatsapp.com/">Whatsapp</a>
               </div>
             </div>
           </div>

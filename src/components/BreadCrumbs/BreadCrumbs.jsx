@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./BreadCrumbs.scss";
 
 function BreadCrumbs() {
@@ -5,24 +7,24 @@ function BreadCrumbs() {
     <div className="breadcrumbs">
       <ul className="breadcrumbs__list">
         <li className="breadcrumbs__item">
-          <a className="breadcrumbs__link" href="/">
+          <Link className="breadcrumbs__link" to="/cardproduct">
             Care cosmetics
-          </a>
+          </Link>
         </li>
         <li className="breadcrumbs__item">
-          <a className="breadcrumbs__link" href="/">
+          <Link className="breadcrumbs__link" to="/cardproduct">
             Decorative cosmetics
-          </a>
+          </Link>
         </li>
         <li className="breadcrumbs__item">
-          <a className="breadcrumbs__link" href="/">
+          <Link className="breadcrumbs__link" to="/cardproduct">
             Eyebrow cosmetics
-          </a>
+          </Link>
         </li>
         <li className="breadcrumbs__item">
-          <a className="breadcrumbs__link" href="/">
+          <Link className="breadcrumbs__link" to="/cardproduct">
             Accessories
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -45,13 +45,13 @@ function NavbarPages() {
             Contacts
           </Link>
           <div className="navbar__icons">
-            <a className="navbar__icons-link" href="/">
+            <Link className="navbar__icons-link" to="/">
               <NavImages imgUrl={images.searchBlack} />
-            </a>
-            <a className="navbar__icons-link" href="/">
+            </Link>
+            <Link className="navbar__icons-link" to="/">
               <NavImages imgUrl={images.basketBlack} />
-            </a>
-            <a className="navbar__icons-link" href="/">
+            </Link>
+            <a className="navbar__icons-link" to="/login">
               <Link to="/login">
                 <NavImages imgUrl={images.userBlack} />
               </Link>

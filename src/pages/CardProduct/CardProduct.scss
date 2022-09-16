@@ -28,8 +28,10 @@
     &__img {
         width: 50%;
         margin-right: 70px;
-        background: $bg-card;
+        background: #EEE4DA;
         border-radius: 15px;
+        display: flex;
+        justify-content: center;
 
         img {
             max-width: 100%;
@@ -63,7 +65,7 @@
     }
 
     &__counter {
-        background-color: #f3ddd1;
+        background-color: #EEE4DA;
         padding: 11px 22px;
         border-radius: 66px;
         width: 163px;
