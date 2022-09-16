@@ -1,0 +1,34 @@
+.process {
+
+    & .founder-quote {
+        padding-top: 0;
+    }
+    &__text {
+        margin-bottom: 56px;
+        font-size: 20px;
+        line-height: 36px;
+
+        &:last-child {
+            margin-bottom: 110px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .process__text {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .process__img {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,46 @@
+@import "../../vars";
+
+.breadcrumbs {
+    padding: 14px 10px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-card;
+    margin-bottom: 30px;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 70px;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 17px;
+        opacity: 0.4;
+        transition: all 0.3s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .breadcrumbs__item:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+    .breadcrumbs__list {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}

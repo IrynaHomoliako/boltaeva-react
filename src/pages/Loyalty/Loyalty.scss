@@ -1,0 +1,67 @@
+.loyalty {
+     
+    &__img {
+        border-radius: 6px;
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 36px;
+        margin-bottom: 70px;
+
+        &:last-child {
+            margin-bottom: 112px;
+        }
+    }
+    
+    &__levels-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    &__levels {
+        margin-bottom: 70px;
+
+        span {
+            font-size: 96px;
+            line-height: 106px;
+            color: #AC8F78;
+        }
+
+        h5 {
+            font-size: 20px;
+            line-height: 36px;
+            opacity: 0.3;
+            font-weight: 300;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .loyalty__text {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .loyalty__img {
+        margin-bottom: 20px;
+    }
+
+    .loyalty__levels-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loyalty__levels {
+        margin-bottom: 30px;
+    }
+
+    .loyalty__levels span {
+        font-size: 88px;
+        line-height: 95px;
+    }
+}

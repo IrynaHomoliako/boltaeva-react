@@ -1,0 +1,73 @@
+@import "../../vars";
+
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url('../../assets/header01.jpg');
+    background-size: cover;
+  
+    &__title {
+      font-size: 50px;
+    }
+  
+    &__form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 235px;
+  
+      label {
+        margin: 10px 0;
+      }
+    }
+  
+    &__input {
+      padding: 10px;
+      background-color: #fff;
+      border: none;
+      border-radius: 10px;
+  
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    &__button {
+      margin-top: 20px;
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.685);
+      background-color: #f2987d; 
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+      transition: all 0.5s ease-in;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  
+    &__register-button {
+      cursor: pointer;
+      border: none;
+      padding: 10px;
+      color: rgba(255, 255, 255, 0.685);
+      background-color: #d4afa3; 
+      border-radius: 10px;
+      transition: all 0.5s ease-in;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+  

@@ -1,0 +1,45 @@
+.partnership {
+    &__img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+        border-radius: 6px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    &__btn {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        flex-direction: row-reverse;
+        margin-inline: auto;
+        margin-bottom: 70px;
+
+        img {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .partnership__text {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .partnership__img {
+        margin-bottom: 20px;
+    }
+
+    .partnership__btn {
+       margin-bottom: 40px;
+    }
+}

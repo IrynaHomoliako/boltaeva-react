@@ -1,0 +1,33 @@
+.delivery {
+    &__img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+        border-radius: 6px;
+    }
+
+    &__order {
+        margin-bottom: 110px;
+        padding: 0 15px;
+
+        &-title {
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+
+        &-item {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 15px;
+            list-style-type: disc;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .delivery__order-item {
+        font-size: 16px;
+    }
+}
