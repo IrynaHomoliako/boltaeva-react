@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/boltaeva-react/static/css/main.1afd4612.css",
-    "main.js": "/boltaeva-react/static/js/main.abdb3975.js",
+    "main.css": "/boltaeva-react/static/css/main.c5b5d149.css",
+    "main.js": "/boltaeva-react/static/js/main.7c27c4c2.js",
     "static/media/header03.jpg": "/boltaeva-react/static/media/header03.84543f1f6f727bfb5765.jpg",
     "static/media/header02.jpg": "/boltaeva-react/static/media/header02.70b4e6ac8625cdef43a2.jpg",
     "static/media/workingProcess.jpg": "/boltaeva-react/static/media/workingProcess.b81e8e83e0dfc77613a3.jpg",
@@ -39,11 +39,11 @@
     "static/media/favoritesCheck.svg": "/boltaeva-react/static/media/favoritesCheck.b8c6db713b83b562522cb0dce4913eb2.svg",
     "static/media/favorites.svg": "/boltaeva-react/static/media/favorites.7c1c4740f7932090630db767a383a803.svg",
     "static/media/search.svg": "/boltaeva-react/static/media/search.1282ba934f3825e466ffb1720fde6ffe.svg",
-    "main.1afd4612.css.map": "/boltaeva-react/static/css/main.1afd4612.css.map",
-    "main.abdb3975.js.map": "/boltaeva-react/static/js/main.abdb3975.js.map"
+    "main.c5b5d149.css.map": "/boltaeva-react/static/css/main.c5b5d149.css.map",
+    "main.7c27c4c2.js.map": "/boltaeva-react/static/js/main.7c27c4c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.1afd4612.css",
-    "static/js/main.abdb3975.js"
+    "static/css/main.c5b5d149.css",
+    "static/js/main.7c27c4c2.js"
   ]
 }
