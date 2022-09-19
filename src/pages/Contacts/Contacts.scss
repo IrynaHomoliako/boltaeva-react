@@ -5,7 +5,6 @@
         border-radius: 6px;
         margin-bottom: 38px;
         max-width: 100%;
-        height: 100%;
     }
 
     &__info-box {
@@ -108,6 +107,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
+        margin: 0 auto;
 
         img {
             margin-right: 0;
