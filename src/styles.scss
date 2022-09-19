@@ -18,8 +18,13 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: inherit !important;
+    color: inherit;
   }
+
+
+button {
+  color: inherit;
+}
 
 ul, li {
     list-style: none;
