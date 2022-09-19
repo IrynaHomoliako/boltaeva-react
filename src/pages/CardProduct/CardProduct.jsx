@@ -60,7 +60,9 @@ function CardProduct() {
               <h2 className="card-product__title">Milk for the face</h2>
               <div className="card-product__counter-container">
                 <div className="card-product__counter">
-                  <button onClick={handleDecrement}>-</button>
+                  <button onClick={handleDecrement} disabled={count === 0}>
+                    -
+                  </button>
                   {count}
                   <button onClick={handleIncrement}>+</button>
                 </div>
